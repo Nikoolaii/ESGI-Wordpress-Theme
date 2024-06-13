@@ -23,7 +23,8 @@
 
 1. Put the folder in your `www` folder.
 2. Import the file `esgi_wordpress.sql`
-3. Just go to the `localhost` and you will see the project.
+3. Edit `wp-config.php` to configure database
+4. Just go to the `localhost` and you will see the project.
 
 ## Admin Panel 🛠️
 
