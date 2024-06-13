@@ -30,8 +30,11 @@ if (is_category()) {
 ?>
 
 
-<div class="container mx-auto px-4 py-8 flex">
-    <main class="w-3/4 grid grid-cols-1 md:grid-cols-2">
+<div class="container mx-auto px-4 py-8 md:flex">
+    <aside class="md:w-1/4">
+        <?php get_sidebar(); ?>
+    </aside>
+    <main class="md:w-3/4 grid grid-cols-1 md:grid-cols-2">
         <?php
         if (have_posts()) :
             while (have_posts()) : the_post();
@@ -69,11 +72,6 @@ if (is_category()) {
         endif;
         ?>
     </main>
-
-
-    <aside class="w-1/4">
-        <?php get_sidebar(); ?>
-    </aside>
 </div>
 
 <?php if (have_posts()) {
