@@ -1,0 +1,33 @@
+/*
+Theme Name: Cinema Thème
+Author: Nikolaï LEMERRE
+Author URI: https://nikoolaii.fr
+Description: Just a basic theme for the cms module in WordPress.
+Requires at least: 5.9
+Tested up to: 6.5
+Requires PHP: 5.6
+Version: 1.0
+*/
+
+.pagination * {
+    display: inline-block;
+    padding: 0 10px;
+    border: 1px solid #000;
+    margin: 0 5px;
+}
+
+.pagination {
+    margin: 20px 0;
+}
+
+.headerImage {
+    height: 400px;
+    width: 100%;
+}
+
+.headerImage h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
