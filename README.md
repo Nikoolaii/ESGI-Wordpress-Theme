@@ -2,7 +2,8 @@
 
 <p align="center">
    <strong>An exercise to learn how to create a Wordpress theme</strong><br />
-   <strong>This theme is used to show movies, by categories and edit an image for each category</strong>
+   <strong>This theme is used to show movies, by categories and edit an image for each category</strong><br />
+   <strong>It's also a test for making plugins in wordpress</strong>
 </p>
 
 ### Features 🚀
@@ -10,10 +11,11 @@
 - 🌐 **Create categories with new input**
 - 🔄 **New input for articles creation**
 - 📷 **Showing of articles in different categories in the homepage**
+- 🕦 **Plugin to show movies schedules**
 
 ## Prerequisites for use 🛠️
 
-- NONE
+1. For plugin shortcode : [horaires id_film="ID DU FILM"]
 
 ## Prerequisites for installation 🛠️
 
