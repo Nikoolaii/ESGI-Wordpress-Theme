@@ -16,6 +16,10 @@
 ## Prerequisites for use 🛠️
 
 1. For plugin shortcode : [horaires id_film="ID DU FILM"]
+2. You can add a movie and a showtime
+3. Each movie can have differents showtime
+4. If you delete a showtime, it will not delete the movie (except if the showtime is the last)
+5. Each movie have his own movie id (For the shortcode)
 
 ## Prerequisites for installation 🛠️
 
